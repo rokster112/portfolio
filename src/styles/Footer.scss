@@ -1,0 +1,13 @@
+
+.Footer {
+  background-color: black;
+  .Footer-link-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    .Footer-links {
+      margin-inline: 20px;
+      margin-block: 10px;
+    }
+  }
+}

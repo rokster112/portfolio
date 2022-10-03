@@ -1,0 +1,19 @@
+
+
+.About-page {
+  background-color: bisque;
+  padding-block: 90px 75px;
+  .About-container {
+    display: flex;
+    justify-content:center;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 40px;
+    padding-inline: 10px;
+    .About {
+      padding-bottom: 30px;
+    }
+  }
+}

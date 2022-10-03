@@ -1,0 +1,23 @@
+
+.Experience-container {
+  background-color: green;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block:  80px;
+  padding-inline: 20px;
+  #Experience-title {
+    margin: 0 auto;
+    padding-block: 30px;
+  }
+  .General-assembly {
+    margin: 0 auto;
+    font-size: 26px;
+  }
+  .Experience-description {
+    font-size: 22px;
+    padding-top: 30px;
+  }
+}

@@ -1,3 +1,20 @@
+@import './PageNavbar.scss';
+@import './Footer.scss';
+@import './About.scss';
+@import './Skills.scss';
+@import './Experience.scss';
+@import './Projects.scss';
+@import './Header.scss';
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+h1 {
+  font-size: 36px;
+}
+
+
+html{scroll-behavior:smooth}
