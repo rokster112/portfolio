@@ -1,6 +1,6 @@
 
 .Experience-container {
-  background-color: green;
+  background-color: black;
   display: flex;
   justify-content:center;
   flex-direction: column;
@@ -8,6 +8,7 @@
   text-align: center;
   padding-block:  80px;
   padding-inline: 20px;
+  border-block: 1px solid white;
   #Experience-title {
     margin: 0 auto;
     padding-block: 30px;
@@ -19,5 +20,6 @@
   .Experience-description {
     font-size: 22px;
     padding-top: 30px;
+    color: white;
   }
 }

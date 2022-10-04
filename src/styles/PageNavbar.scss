@@ -1,26 +1,28 @@
 
 .Navbar {
-  background-color: red;
+  background-color: black;
   padding-block: 25px;
+  border-block: 1px solid white;
   display: flex;
   justify-content: space-between;
   position: sticky;
   top: 0px;
+  z-index: 1000;
   .Navbar-link-wrap {
     justify-content: flex-end;
     flex-direction: row;
     .Navbar-links {
       margin-inline: 5px;
       text-decoration: none;
-      font-size: 20px;
-      color: black;
+      font-size: 18px;
+      color: rgb(147, 250, 165);
     }
   }
   .Navbar-rokas {
     margin-inline: 5px;
     text-decoration: none;
-    font-size: 20px;
-    color: black;
+    font-size: 18px;
+    color: rgb(147, 250, 165);
   }
   .Navbar-burger {
     display: none;
@@ -41,7 +43,7 @@
       display: block;
       position: absolute;
       right: 30px;
-      color: black;
+      color: rgb(147, 250, 165);
       font-size: 26px;
     }
     

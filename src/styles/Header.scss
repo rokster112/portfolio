@@ -4,19 +4,22 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: aquamarine;
+  background-color: black;
+  border-block: 1px solid white;
   .Header-title {
     // align-items: center;
     text-align: center;
   }
   .Header-image {
     margin-block: 60px 30px;
+    border: 2px solid white;
   }
   .Header-content {
     margin: 0;
     text-align: center;
     padding-block: 20px 70px;
     font-size: 22px;
+    
   }
   
 }

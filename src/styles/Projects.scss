@@ -1,20 +1,98 @@
 
 .Project-page {
-  background-color: yellowgreen;
+  background-color: black;
+  padding-block: 75px;
+  border-block: 1px solid white;
   #Project-title {
     margin: 0 auto;
     padding-block: 30px 10px;
     text-align: center;
+    
   }
   .Project-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
     padding-block: 20px 50px;
-    .Project-1 {
-      margin-left: 50px;
+    .Project-card {
+      border: 1px solid black;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      margin-block: 10px;
+      margin-inline: 15px;
+      background-color: rgb(228, 228, 228);
+      border-radius: 6px;
+      .Project-video {
+        padding-inline: 15px;
+      }
+
+      .Project-p {
+        font-size: 17px;
+      }
+      .Project-skill-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .Project4-skill-container, .Project3-skill-container, .Project2-skill-container, .Project1-skill-container {
+          margin-inline: 10px;
+          margin-block: 10px;
+        }
+      }
+  
     }
-    .Project-4 {
-      margin-right: 50px;
+    .Project-4-description, .Project-3-description, .Project-2-description, .Project-1-description {
+      display: flex;
+      // justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .Projects {
+          padding-block: 30px;
+          color: rgb(0, 128, 92);
+      }
     }
+  }
+
+  .Button-container {
+    margin-block: 10px;
+    // justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+// @media screen and (min-width: 1056px) {
+//   .d-block {
+    
+//     padding-block: 40px 30px !important;
+    
+//   }
+// }
+
+@media screen and (min-width: 1260px) {
+  #Project1-video {
+    padding-block: 45px;
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .Project-page {
+    .Project-card {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      flex-direction: column !important;
+      .Project-video {
+        padding-block: 30px;
+      }
+      .Project-skill-section {
+        align-content: center;
+        justify-content: center;
+      }
+    }
+
   }
 }

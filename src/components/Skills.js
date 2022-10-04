@@ -23,75 +23,75 @@ const Skills = () => {
     <h1 id='Skills-title'>Skills and Technologies</h1>
     <div className='Top-skills-container'>
       <div className='One-skill-container'>
-        <h2>JavaScript</h2>
+        <h3>JavaScript</h3>
         <img className='Skill-image' src={JS}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Bootstrap</h2>
+        <h3>Bootstrap</h3>
         <img className='Skill-image' src={BOOTSTRAP}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>HTML5</h2>
+        <h3>HTML5</h3>
         <img className='Skill-image' src={HTML}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>CSS</h2>
+        <h3>CSS</h3>
         <img className='Skill-image' src={CSS}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>SASS</h2>
+        <h3>SASS</h3>
         <img className='Skill-image' src={SASS}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>React</h2>
+        <h3>React</h3>
         <img className='Skill-image' src={REACT}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Node</h2>
+        <h3>Node</h3>
         <img className='Skill-image' src={NODE}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>NPM</h2>
+        <h3>NPM</h3>
         <img className='Skill-image' src={NPM}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>MongoDB</h2>
+        <h3>MongoDB</h3>
         <img className='Skill-image' src={MONGO}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Express</h2>
+        <h3>Express</h3>
         <img className='Skill-image' src={EXPRESS}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Insomnia</h2>
+        <h3>Insomnia</h3>
         <img className='Skill-image' style={{ maxWidth: 48, maxHeight: 48 }} src={INSOMNIA}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Python</h2>
+        <h3>Python</h3>
         <img className='Skill-image' src={PYTHON}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Django</h2>
+        <h3>Django</h3>
         <img className='Skill-image' src={DJ}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>TablePlus</h2>
+        <h3>TablePlus</h3>
         <img className='Skill-image' style={{ maxWidth: 48, maxHeight: 48 }} src={TP}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>PostgreSQL</h2>
+        <h3>PostgreSQL</h3>
         <img className='Skill-image' src={SQL}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>GitHub</h2>
+        <h3>GitHub</h3>
         <img className='Skill-image' src={GITHUB}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Git</h2>
+        <h3>Git</h3>
         <img className='Skill-image' style={{ maxWidth: 48, maxHeight: 48 }} src={GIT}></img>
       </div>
       <div className='One-skill-container'>
-        <h2>Heroku</h2>
+        <h3>Heroku</h3>
         <img className='Skill-image' src={HEROKU}></img>
       </div>
     </div>

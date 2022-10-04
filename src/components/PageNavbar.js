@@ -1,6 +1,5 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Experience from './Experience'
 
 const PageNavbar = () => {
 
@@ -31,7 +30,7 @@ const PageNavbar = () => {
         <a href='#About' className='Navbar-links' onClick={burgerHide}>About</a>
         <a href='#Skills-page' className='Navbar-links' onClick={burgerHide}>Skills</a>
         <a href='#Experience' className='Navbar-links' onClick={burgerHide}>Experience</a>
-        <a href='#Main-container' className='Navbar-links' onClick={burgerHide}>Projects</a>
+        <a href='#Project-page' className='Navbar-links' onClick={burgerHide}>Projects</a>
         <a href='#Footer' className='Navbar-links' onClick={burgerHide}>Contact Details</a>
       </div>
       <a href='javascript:void(0);' className='Navbar-burger' onClick={burgerToggle}>

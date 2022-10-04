@@ -1,8 +1,12 @@
 
 
 .About-page {
-  background-color: bisque;
+  background-color: black;
   padding-block: 90px 75px;
+  border-block: 1px solid white;
+  #About-statement {
+    color: white;
+  }
   .About-container {
     display: flex;
     justify-content:center;
