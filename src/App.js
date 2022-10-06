@@ -5,6 +5,7 @@ import PageNavbar from './components/PageNavbar'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import About from './components/About'
+import Hobbies from './components/Hobbies'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
     </div>
     <Experience />
     <Projects />
+    <Hobbies />
     <Footer />
     </div>
   )

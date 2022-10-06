@@ -1,0 +1,50 @@
+  .Hobbies-page {
+    background-color: black;
+    padding-block: 50px 30px;
+  }
+  
+  .Hobbies-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-block: 50px 30px;
+  }
+  .Hobbies-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    .Basketball {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .Basketball-description {
+        color: white;
+        margin-block: 15px;
+      }
+    }
+    .Gaming {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .Gaming-description {
+        color: white;
+        margin-block: 15px;
+      }
+    }
+  }
+
+  span {
+    color: white;
+  }
+
+
+  @media screen and (max-width: 824px) {
+    .Hobbies-container {
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      flex-direction: column !important;
+    }
+  }

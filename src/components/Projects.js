@@ -28,6 +28,7 @@ const Projects = () => {
       </div>
           <div className='Project-1-description' style={{ maxWidth: 700 }}>
           <h2 id='Project-1' className='Projects'>Frogger</h2>
+          <h4>Deadline: 7 days - Solo</h4>
           <p className='Project-p'>Built a grid-based game while using HTML, CSS, and JavaScript. My choice was a Frogger style game. This was a good project, because I got to challenge myself while also improving my JavaScript skills, while maintaining HTML and CSS skills.</p>
           <div className='Project-skill-section'>
             <div className='Project1-skill-container'>
@@ -45,8 +46,8 @@ const Projects = () => {
             
           </div>
           <div className='Button-container'>
-            <button className='Source-code'>Source Code</button>
-            <button className='Website'>Website</button>
+            <a href='https://github.com/rokster112/SEI-65-Projects' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+            <a href='https://rokster112.github.io/SEI-65-Projects/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
           </div>            
           </div>
         </div>
@@ -56,6 +57,7 @@ const Projects = () => {
         </div>
           <div className='Project-2-description' style={{ maxWidth: 700 }}>
           <h2 id='Project-2' className='Projects'>Harry Potter</h2>
+          <h4>Deadline: 48 hours - Pair</h4>
           <p className='Project-p'>We had two days to build a React app which used an external API. I found this project being very useful in terms of working under time pressure, and how to code in a pair. I worked on Navbar and then on the All Characters page, where all of the characters were displayed and added a filter option, where characters are filtered according to the house they represent. Also, because this API didn’t have an option for a single character page, I did a workaround where the content is filtered out when pressed on one character and only information about that specific character is displayed. </p>
           <div className='Project-skill-section'>
             <div className='Project2-skill-container'>
@@ -72,17 +74,18 @@ const Projects = () => {
             </div>
           </div>
           <div className='Button-container'>
-            <button className='Source-code'>Source Code</button>
-            <button className='Website'>Website</button>
+          <a href='https://github.com/rokster112/SEI-65-Project2' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+          <a href='https://harry-potter-character-info.netlify.app/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
           </div>            
           </div>
         </div>
         <div className='Project-card' style={{ maxWidth: 1300, maxHeight: 1100 }}>
-        <div>
+        <div style={{ maxWidth: 600 }}>
           <video src={Readit} autoPlay loop muted style={{ width: '100%', height: '100%' }} className='Project-video' id='Project3-video'></video>
         </div>
           <div className='Project-3-description' style={{ maxWidth: 700 }}>
           <h2 id='Project-3' className='Projects'>ReadIT!</h2>
+          <h4>Deadline: 7 days - Group</h4>
           <p className='Project-p'>As a group we created a MERN app with CRUD functionality, building a forum type app like Reddit. I really liked this project because it showed what it’s like to work in a team. In the back end I created Topic, User, and Comment Schemas, as well as Error Handler, Auth, Login and Register. Finally, I also created a Topic Controller with full CRUD capabilities. In the front end, I created Login, Register, and Navbar. Then I proceeded to do styling for Single topic page, Login, Register, and Navbar.</p>
           <div className='Project-skill-section'>
             <div className='Project3-skill-container'>
@@ -112,8 +115,8 @@ const Projects = () => {
             
           </div>
           <div className='Button-container'>
-            <button className='Source-code'>Source Code</button>
-            <button className='Website'>Website</button>
+          <a href='https://github.com/rokster112/sei65-project-3-APP' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+          <a href='https://ga-readit.netlify.app/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
           </div>            
           </div>
         </div>
@@ -123,6 +126,7 @@ const Projects = () => {
         </div>
           <div className='Project-4-description' style={{ maxWidth: 700 }}>
           <h2 id='Project-4' className='Projects'>The Gaming Nerd Zone</h2>
+          <h4>Deadline: 4 days - Solo</h4>
           <p className='Project-p'>The main language for this project was Python for the backend whilst using the Django database, and the front end was React. I built an app about game reviews, where you can add, update, view and delete games. In the back end there is functionality to add actual reviews for each game posted on the website. I used Bootstrap to style the Navbar, but for everything else, I simply used SASS.</p>
           <div className='Project-skill-section'>
             <div className='Project4-skill-container'>
@@ -152,8 +156,8 @@ const Projects = () => {
             
           </div>
           <div className='Button-container'>
-            <button className='Source-code'>Source Code</button>
-            <button className='Website'>Website</button>
+          <a href='https://github.com/rokster112/sei65-project-4-api' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+          <a href='https://the-gaming-nerd-zone.herokuapp.com/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
           </div>            
           </div>
         </div>
