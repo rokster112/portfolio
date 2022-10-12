@@ -13,7 +13,7 @@ import OSRS from '../styles/images/osrs.jpeg'
 const Hobbies = () => {
 
   return (
-    <div className='Hobbies-page'>
+    <div className='Hobbies-page' id='Hobbies-page'>
       <h1 className='Hobbies-title'>Hobbies</h1>
       <div className='Hobbies-container'>
         <div className='Basketball' style={{ maxWidth: 500 }}>

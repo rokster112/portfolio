@@ -31,6 +31,7 @@ const PageNavbar = () => {
         <a href='#Skills-page' className='Navbar-links' onClick={burgerHide}>Skills</a>
         <a href='#Experience' className='Navbar-links' onClick={burgerHide}>Experience</a>
         <a href='#Project-page' className='Navbar-links' onClick={burgerHide}>Projects</a>
+        <a href='#Hobbies-page' className='Navbar-links' onClick={burgerHide}>Hobbies</a>
         <a href='#Footer' className='Navbar-links' onClick={burgerHide}>Contact Details</a>
       </div>
       <a href='javascript:void(0);' className='Navbar-burger' onClick={burgerToggle}>
