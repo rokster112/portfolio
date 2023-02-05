@@ -21,7 +21,6 @@ import { useState } from 'react'
 
 const Projects = () => {
   const [count, setCount] = useState(0)
-  const [ projectObj, setProjectObj ] = useState({})
   const images = [AnimeDB, DiceGame]
 
   function next() {
@@ -82,15 +81,15 @@ const Projects = () => {
           <p className='Project-p'>Built a grid-based game while using HTML, CSS, and JavaScript. My choice was a Frogger style game. This was a good project, because I got to challenge myself while also improving my JavaScript skills, while maintaining HTML and CSS skills.</p>
           <div className='Project-skill-section'>
             <div className='Project1-skill-container'>
-              <img src={HTML}></img>
+              <img src={HTML} alt=''/>
               <p>HTML</p>
             </div>
             <div className='Project1-skill-container'>
-              <img src={CSS}></img>
+              <img src={CSS} alt=''/>
               <p>CSS</p>
             </div>
             <div className='Project1-skill-container'>
-              <img src={JS}></img>
+              <img src={JS} alt=''/>
               <p>JavaScript</p>
             </div>
             
@@ -111,15 +110,15 @@ const Projects = () => {
           <p className='Project-p'>We had two days to build a React app which used an external API. I found this project being very useful in terms of working under time pressure, and how to code in a pair. I worked on Navbar and then on the All Characters page, where all of the characters were displayed and added a filter option, where characters are filtered according to the house they represent. Also, because this API didn’t have an option for a single character page, I did a workaround where the content is filtered out when pressed on one character and only information about that specific character is displayed. </p>
           <div className='Project-skill-section'>
             <div className='Project2-skill-container'>
-              <img src={REACT}></img>
+              <img src={REACT}alt=''/>
               <p>React</p>
             </div>
             <div className='Project2-skill-container'>
-              <img src={SASS}></img>
+              <img src={SASS}alt=''/>
               <p>SASS</p>
             </div>
             <div className='Project2-skill-container'>
-              <img src={BOOTSTRAP}></img>
+              <img src={BOOTSTRAP}alt=''/>
               <p>Bootstrap</p>
             </div>
           </div>
@@ -139,27 +138,27 @@ const Projects = () => {
           <p className='Project-p'>As a group we created a MERN app with CRUD functionality, building a forum type app like Reddit. I really liked this project because it showed what it’s like to work in a team. In the back end I created Topic, User, and Comment Schemas, as well as Error Handler, Auth, Login and Register. Finally, I also created a Topic Controller with full CRUD capabilities. In the front end, I created Login, Register, and Navbar. Then I proceeded to do styling for Single topic page, Login, Register, and Navbar.</p>
           <div className='Project-skill-section'>
             <div className='Project3-skill-container'>
-              <img src={REACT}></img>
+              <img src={REACT} alt=''/>
               <p>React</p>
             </div>
             <div className='Project3-skill-container'>
-              <img src={SASS}></img>
+              <img src={SASS} alt=''/>
               <p>SASS</p>
             </div>
             <div className='Project3-skill-container'>
-              <img src={EXPRESS}></img>
+              <img src={EXPRESS} alt=''/>
               <p>Express</p>  
             </div>
             <div className='Project3-skill-container'>
-              <img src={BOOTSTRAP}></img>
+              <img src={BOOTSTRAP} alt=''/>
               <p>Bootstrap</p>
             </div>
             <div className='Project3-skill-container'>
-              <img src={MONGO}></img>
+              <img src={MONGO} alt=''/>
               <p>MongoDB</p>
             </div>
             <div className='Project3-skill-container'>
-              <img src={NODE}></img>
+              <img src={NODE} alt=''/>
               <p>Node</p>
             </div>
             
@@ -180,27 +179,27 @@ const Projects = () => {
           <p className='Project-p'>The main language for this project was Python for the backend whilst using the Django database, and the front end was React. I built an app about game reviews, where you can add, update, view and delete games. In the back end there is functionality to add actual reviews for each game posted on the website. I used Bootstrap to style the Navbar, but for everything else, I simply used SASS.</p>
           <div className='Project-skill-section'>
             <div className='Project4-skill-container'>
-              <img src={REACT}></img>
+              <img src={REACT} alt=''/>
               <p>React</p>
             </div>
             <div className='Project4-skill-container'>
-              <img src={SASS}></img>
+              <img src={SASS} alt=''/>
               <p>SASS</p>
             </div>
             <div className='Project4-skill-container'>
-              <img src={PYTHON}></img>
+              <img src={PYTHON} alt=''/>
               <p>Python</p>  
             </div>
             <div className='Project4-skill-container'>
-              <img src={BOOTSTRAP}></img>
+              <img src={BOOTSTRAP} alt=''/>
               <p>Bootstrap</p>
             </div>
             <div className='Project4-skill-container'>
-              <img src={DJ}></img>
+              <img src={DJ} alt=''/>
               <p>Django</p>
             </div>
             <div className='Project4-skill-container'>
-              <img src={SQL}></img>
+              <img src={SQL} alt=''/>
               <p>PostgreSQL</p>
             </div>
             
