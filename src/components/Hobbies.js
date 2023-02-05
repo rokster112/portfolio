@@ -86,7 +86,7 @@ const Hobbies = () => {
       </Carousel.Item>
     </Carousel>
     </div>
-    <p className='Gaming-description'>The first two games I ever played were on SEGA, Super Mario and Megaman 3. These were the games that introduced me to gaming and pulled me in to this day. Currently, I play Counter Strike Global Offensive and sometimes Old School RuneScape.</p>
+    <p className='Gaming-description'>The first two games I have ever played were on SEGA, Super Mario and Megaman 3. These were the games that introduced me to gaming and pulled me in to this day. Currently, I play Counter Strike Global Offensive and sometimes Old School RuneScape.</p>
         </div>
       </div>
     </div>

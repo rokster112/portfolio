@@ -15,8 +15,58 @@ import Frogger from '../styles/videos/frogger.mp4'
 import Harry from '../styles/videos/harry.mp4'
 import Readit from '../styles/videos/readit.mp4'
 import Nerd from '../styles/videos/nerd-zone.mp4'
+import AnimeDB from '../styles/images/anime-db.png'
+import DiceGame from '../styles/images/dice-game.png'
+import { useState } from 'react'
 
 const Projects = () => {
+  const [count, setCount] = useState(0)
+  const [ projectObj, setProjectObj ] = useState({})
+  const images = [AnimeDB, DiceGame]
+
+  function next() {
+    setCount(1)
+
+  }
+
+  function prev() {
+    setCount(0)
+  }
+
+  const projectAnimeDb = {
+    name: 'Anime-Database',
+    deadline: 'Deadline: 7 days - Solo',
+    description: 'Main language for this project was React. I decided to make a Front End only project and since this API had a lot of data, I decided to use it. I wanted to have less pages, but because of API request limit I had to separate sections into separate pages. It is read only website, however it was very fun, because of the amount of data available. Styling was a mix of CSS/SASS and Bootstrap.',
+    skills: [[{name: 'React', src: REACT}], 
+    [{name: 'CSS', src: CSS}], 
+    [{name: 'Bootstrap', src: BOOTSTRAP}]],
+    buttons: [[{name: 'Source Code', src: 'https://github.com/rokster112/Anime-Database'}], [{name: 'Website', src: 'https://anime-1-database.netlify.app/'}]]
+  }
+
+  const projectDiceGame = {
+      name: 'Dice-Game',
+      deadline: '8 Hours - Solo',
+      description: 'This project was JavaScript and CSS only. I used DOM manipulation methods and event listeners to display different elements/styles on the page. It was fun mini project, which would not have taken so long if I did not take roughly 2 hour break.',
+      skills: [[{name: 'JavaScript', src: JS}],[{name: 'CSS', src: CSS}]],
+      buttons: [[{name: 'Source Code', src: 'https://github.com/rokster112/dice-game'}],[{name: 'Website', src: 'https://rokster112.github.io/dice-game/'}]]
+  }
+  const skills = (count === 0 ? projectAnimeDb.skills : projectDiceGame.skills).map(skill => {
+    return skill.map(item => {
+      return <div key={item.src} className='Project5-skill-container'>
+      <img key={item.src} src={item.src} alt=''/>
+      <p key={item.name}>{item.name}</p>
+    </div>
+    })
+  })
+
+  // <a href='https://github.com/rokster112/SEI-65-Project2' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+
+  const buttons = ((count === 0 ? projectAnimeDb.buttons : projectDiceGame.buttons).map(button => {
+    return button.map(one => {
+      return <><a href={one.src} target='_blank' rel='noreferrer'><button key={one.name} className={one.name === 'Website' ? 'Website' : 'Source-code'}>{one.name}</button></a></>
+    })
+  }))
+
 
   return (
     <div className='Project-page' id='Project-page'>
@@ -156,11 +206,29 @@ const Projects = () => {
             
           </div>
           <div className='Button-container'>
-          <a href='https://github.com/rokster112/sei65-project-4-api' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
-          <a href='https://the-gaming-nerd-zone.herokuapp.com/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
+          <a href='https://github.com/rokster112/project-4-api' target='_blank' rel='noreferrer'><button className='Source-code'>Source Code</button></a>
+          <a href='https://the-gaming-nerd-zone.up.railway.app/' target='_blank' rel='noreferrer'><button className='Website'>Website</button></a>
           </div>            
           </div>
         </div>
+          <div className='Project-card' style={{ maxWidth: 1300, maxHeight: 1100 }}>
+            <div className='Project-5-img-div' style={{ maxWidth: 600, display: 'flex' }}>
+            <p className='prev' onClick={prev}>&#171;</p>
+              <img src={images[count]} style={{ width: '100%', height: '100%' }} id='project5-img' className='Project-video' alt='project5'/>
+            <p className='next' onClick={next}>&#187;</p>
+            </div>
+            <div className='Project-5-description' style={{ maxWidth: 700 }}>
+            <h2 id='Project-5' className='Projects'>{count === 0 ? projectAnimeDb.name : projectDiceGame.name}</h2>
+            <h4>{count === 0 ? projectAnimeDb.deadline : projectDiceGame.deadline}</h4>
+            <p className='Project-p'>{count === 0 ? projectAnimeDb.description : projectDiceGame.description}</p>
+            <div className='Project-skill-section'>
+              {skills}
+            </div>
+            <div className='Button-container'>
+              {buttons}
+            </div>   
+            </div>
+          </div>
       </div>
     </div>
   )
