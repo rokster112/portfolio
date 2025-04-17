@@ -7,7 +7,7 @@ const Header = () => {
     <div className='Header-page' id='Header'>
       <img className='Header-image' style={{ maxWidth: 250, maxHeight: 250, borderRadius: 10 }} src={image} alt=''/>
       <h1 className='Header-title'>Hello, my name is Rokas</h1>
-      <p style={{ maxWidth: 900 }} className='Header-content'>I am a Lithuanian Software Engineer, who is living in London. I am currently looking for my first role as a Software Engineer, having finished General Assembly's bootcamp and gaining core Software Engineering skills.</p>
+      <p style={{ maxWidth: 900 }} className='Header-content'>I’m a Lithuanian Software Engineer currently looking for my first professional role after completing General Assembly’s Software Engineering bootcamp. I’ve built a solid foundation in full-stack development and am especially passionate about creating intuitive, responsive front-end experiences.</p>
     </div>
   )
 }
